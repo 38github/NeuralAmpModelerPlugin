@@ -206,7 +206,7 @@
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
       <AdditionalIncludeDirectories>$(VST3_INC_PATHS);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) -Ofast -march=x86-64-v3 -flto</AdditionalOptions>
+      <AdditionalOptions>%(AdditionalOptions) -Ofast -march=x86-64-v3 -flto -ffat-lto-objects</AdditionalOptions>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
